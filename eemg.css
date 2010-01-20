@@ -11,7 +11,7 @@
 	display: run-in;
 	position: relative;
 	float: right;
-	margin-right: 1em;
+	margin-right: 14em;
 }
 
 .eemg-button { 
@@ -72,7 +72,7 @@ body {
 }
 
 #statement {
-	text-align: center;
+	text-align: justify;
 	border: 1px solid #cdc3b7;
 	background-color: #f1eadd;
 	-moz-border-radius: 0em;
@@ -85,10 +85,12 @@ body {
 	padding: 0em;
 	margin-left: 3em;
 	margin-right: 0em;
-	margin-bottom: 0em;
+	margin-bottom: 1em;
+	clear: both;
 }
 
 #statement h2 {
+	padding: 1em;
 	margin-bottom: 0em;
 }
 
