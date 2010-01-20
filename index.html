@@ -10,7 +10,6 @@
     <!--[if lt IE 8]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"/><![endif]-->
 
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/humanity/jquery-ui.css" type="text/css" media="screen, projection"/>
-    <!-- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/ui-darkness/jquery-ui.css" type="text/css" media="screen, projection"/> -->
 
     <link rel="stylesheet" href="./eemg.css" type="text/css" media="screen, projection"/>
 
@@ -65,15 +64,12 @@
 	<div class="clear span-22 last"> </div>
       </div>
       <!-- end menu -->
-      
-      <div id="bg-tinted-logo" class="eemg-bg">
-	<img src="./img/eemg-tinted.png"></img>
-      </div>
 
       <div class="clear span-22 prepend-1 append-1 last">
 	<hr/>
       </div>
-     <div id="page-contents">
+   
+    <div id="page-contents">
 	<div class="clear span-10 prepend-1" id="statement">
 	  <h2>Edgar is a software developer, PhD student and
 	  member of the Software Engineering Group at INESC-ID (Portugal).</h2>
@@ -88,7 +84,8 @@
 	  <p class="clear">Know <a href="#">more</a> about me.</p>
 	</div>
 	<!-- end featurelist -->
-	<div class="clear span-10 prepend-1" id="proof">
+	<div class="clear span-10 prepend-1 eemg-tinted-bg" id="proof">
+
 	  <div class="span-10 last" id="review1">
 	    <h3 class="alt">"Top quality engineer"</h3>
 	    <div class="clear span-9 prepend-1 last">
@@ -114,6 +111,7 @@
 	  </div>
 	  <!-- end review3 -->
 	  <div class="clear span-10 last"> </div>
+	
 	</div>
 	<!-- end proof -->
 
@@ -128,9 +126,9 @@
 	<div class="clear span-10 last">
 	  <div class="span-8 prepend-1 append-1 last buttons">
 	    <h2>
-	      <button type="submit" class="eemg-button ui-state-default ui-corner-all">
-		<span class="caps">Hire Edgar</span>
-	      </button>
+	      <div id="button-hire" class="eemg-button ui-state-default ui-corner-all">
+		<span class="caps">Get in touch!</span>
+	      </bdiv>
 	    </h2>
 	  </div>
 	</div>
@@ -151,6 +149,7 @@
 	<!-- end about -->
       </div>
       <!-- end footer -->
+      
     </div>
   </body>
 </html>

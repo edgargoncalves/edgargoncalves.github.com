@@ -37,6 +37,10 @@ function initPage () {
 	  setupMenuButton("menu3");
 	  setupMenuButton("menu4");
 
+	  $("#button-hire").click(function() {
+				   alert("Thank you for your interest. I'm currently engaged in academic activities, but e-mail me (edgar.goncalves@gmail.com) and I'll get back to you soon(ish).");   
+				  });
+
       });
 }
 

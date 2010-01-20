@@ -16,20 +16,34 @@
 
 .eemg-button { 
    outline: 0; 
-   margin:0 0px 0 0; 
+   margin:0 0 0 0; 
    text-decoration:none !important; 
    cursor:pointer; 
    position: relative; 
    text-align: center;
    font-size: 1.3em;
-   padding: 1em;;
+   padding: 0em;
 }
 
-#calltoaction 
- {
-	text-align: left;
+#button-hire {
+	width: 100%;
+	padding: 0em;
+	padding-left: 0em;
 	margin: 0;
-	padding-left: 3em;
+	
+}
+
+#logo img {
+	
+}
+
+#calltoaction
+ {
+	
+}
+
+#button-hire span.caps {
+	margin-bottom: 0px;
 }
 
 .eemg-nobreak{
@@ -38,7 +52,7 @@
 	float: left;
 }
 
-.caps {
+blockquote.caps {
 	clear: none;
 	float: right;
 }
@@ -51,8 +65,8 @@ body {
 	text-align: center;
 	border: 0.1em solid #cdc3b7;
 	background-color: #f1eadd;
-	-moz-border-radius: 2em;
-	-webkit-border-radius: 2em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
 	padding:  0.5em;
 	padding-bottom: 0em;
 }
@@ -61,22 +75,35 @@ body {
 	text-align: center;
 	border: 1px solid #cdc3b7;
 	background-color: #f1eadd;
-	-moz-border-radius: 4em;
-	-webkit-border-radius: 4em;
-	-moz-border-radius-bottomright: 0px;
-	-webkit-border-bottom-right-radius: 0px;
-	padding:  1em;
-	padding-bottom: 0px;
+	-moz-border-radius: 0em;
+	-webkit-border-radius: 0em;
+	-moz-border-radius-bottomright: 1em;
+	-webkit-border-bottom-right-radius: 1em;
+	-moz-border-radius-topleft: 1em;
+	-webkit-border-top-left-radius: 1em;
+	padding-bottom:  0em;
+	padding: 0em;
+	margin-left: 3em;
+	margin-right: 0em;
+	margin-bottom: 0em;
 }
 
-#bg-tinted-logo div {
-	position: absolute;
-	clear: none;
+#statement h2 {
+	margin-bottom: 0em;
+}
+
+div .bg-tinted-logo {
+	z-index: 1;
+	position: relative;
 	display: inline;
-	float: left;
-	left: 16em;
-	z-index: -4;
-	bottom: 0;
 }
 
+.eemg-tinted-bg {
+	background: url(./img/eemg-tinted.png) no-repeat 0 0;
+}
 
+#proof {
+	margin: 0em;
+	margin-left: 3em;
+	padding: 0em;
+}
